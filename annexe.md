@@ -1,8 +1,8 @@
 Liste des relations
 
-+---------+---------------------+----------+--------------+ 
+
 | Schéma  |         Nom         |   Type   | Propriétaire |
-+=========+=====================+==========+==============+
+|---------+---------------------+----------+--------------|
 |ccas_adm | accueil             | table    | ccas_adm     |
 |ccas_adm | attributcategorie   | table    | ccas_adm     |
 |ccas_adm | categorie           | table    | ccas_adm     |
@@ -20,4 +20,3 @@ Liste des relations
 |ccas_adm | s_user              | séquence | ccas_adm     |
 |ccas_adm | typepublic          | table    | ccas_adm     |
 |ccas_adm | typereception       | table    | ccas_adm     |
-+---------+---------------------+----------+--------------+
