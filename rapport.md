@@ -1,4 +1,4 @@
-% Mise a jour des dépendances de l'application Accueil-CCAS
+% Déploiement de l'application Accueil-CCAS
 % Guillaume JOOP
 % Stage du 28/10/2015 au 20/11/2015
 
@@ -251,6 +251,21 @@ Pandoc est aussi capable d'interpréter du code **HTML** ou **LaTeX** meme si ce
 dans un fichier markdown. Il utilise d'ailleur le langage LaTeX pour la conversion en PDF.
 Parmi les autres fonctions utiles de Pandoc se trouve la création automatique d'une **table des matières**.
 
+### GitHub
+
+GitHub est un service web d'hébergement et de gestion de développement de logiciels,
+utilisant le logiciel de gestion de versions Git. Ce site est développé en partie en 
+Ruby on Rails
+
+### NetBeans
+
+NetBeans est une interface de développement créé par Sun (aujourd'hui racheté par Oracle).
+NetBeans permet de développer en une multitude de langage comme Java, C++, HTML et
+beaucoup d'autres en lui incluant des greffons. Il est par exemple utilisé dans le cadre
+du stage avec un greffon Markdown. Il gère la notion de projet et est compatible
+avec des outils de versionning comme Subversion ou bien Git. Cela en fait un outil
+polyvalent et trés pratique
+
 # La réalisation du projet
 
 ## Installation du poste de travail
@@ -277,7 +292,7 @@ une fois les dites applications installées).
 
 \pagebreak 
 
-### Installation de java/postrgreSQL
+### Installation de java/postrgreSQL/subversion/git
 
 L'installation de ces programmes sous Linux n'a rien de compliqué, un simple
 
@@ -338,7 +353,7 @@ Il faut donc créé le fichier **~/.m2.settings.xml** qui aura le contenu ci des
 </settings>
 ~~~~~
 
-### Installation de tomcat
+### Installation de Tomcat
 
 Ici rien de plus simple, je télécharge **l'archive** de la version voulu, ici Tomcat 7, et la
 décompresse dans le dossier de mon choix, sans oublier d'aller préciser le chemin
@@ -366,6 +381,16 @@ Je met ensuite a jour le **contexte** et insère ceci au fichier **server.xml**
 ![Le fichier context.xml](images/context.png "context.xml")
 
 \pagebreak
+
+### Installation de NetBeans
+
+Tout comme Tomcat, il suffit de télécharger l'archive de la version désiré et de
+la décompresser ou on le souhaite. Mais comme Tomcat il va falloir également
+changer quelques paramètres dans les fichiers. NetBeans ne se lancera pas s'il
+ne trouve pas l'environnement java. En effet il est développé dans ce langage et
+en a donc besoin pour se lancer. On lui indique alors le chemin d'installation de
+java dans son fichier conf situé dans le dossier etc, à la ligne netbeans_jdkhome.
+On peut maintenant le lancer correctement en lançant le shell correspondant.
 
 ## Déployer l'application
 
@@ -407,6 +432,9 @@ et l'application se déploie automatiquement. Cependant cette étapes m'a causé
 souci notamment due a l'accés à l'interface rendu impossible par l'utilisation du **realm**
 custom et par un probleme de compatibilité du **domaine d'authentification** utilisé par
 l'application avec **Tomcat 8** (donc ne venant pas de l'application elle meme).
+
+Mais avant cela il faut bien sur s'assurer que le serveur est bien lancé en éxecutant
+le fichier startup.sh situé dans le répertoire bin du dossier d'installation de Tomcat.
 
 ### Déployer les rapports BIRT
 
@@ -456,6 +484,13 @@ possible qu'à partir de l'interface administrateur.
 ![Exemple d'un rapport BIRT](images/rapport.png "rapport BIRT")
 
 ## Rédaction du rapport et de la présentation
+
+
+### Dépot sur GitHub
+
+Avant toute chose il me faut créer deux dépot sur GitHub : l'un pour le rapport
+et l'autre pour la présentation. On travaillera maintenant en permanence avec
+cet outil ainsi que NetBeans pour les récupérations, les modifications en local et les envois.
 
 ### Le rapport
 
