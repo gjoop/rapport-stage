@@ -409,8 +409,6 @@ su - postgres
 psql ccas < /tmp/accueilccas_dump.sql
 ~~~~~
 
-La structure de la BDD et son contenu se situe en annexe
-
 ### Récupérer les sources et compiler
 
 Une fois cette opération effectué, il faut récupérer l'application et la **compiler**.
