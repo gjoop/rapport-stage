@@ -8,11 +8,11 @@ Je tiens à remercier en premier lieu toute l'équipe pédagogique de l'Universi
 Nouvelle-Calédonie ainsi que les intervenants professionnels responsable de la formation
 Science pour l'Ingénieur parcours Informatique pour avoir assuré sa partie théorique.
 
-Je remercie également **Mr. Téodor KNAPIK** pour avoir accepté d’être mon tuteur universitaire
+Je remercie également **Mr. Téodor KNAPIK** pour avoir accepté d’être mon tuteur universitaire.
 
-Je tiens à remercier chaleureusement **Mr. Richard DEPLANQUES** pour m'avoir permis
+Je tiens à remercier chaleureusement **Mr. Richard DEPLANQUE** pour m'avoir permis
 d'effectuer mon stage au sein de son service et **Mr. Adrien SALES** pour
-m'avoir accordé sa confiance en me confiant ce projet à réaliser en autonomie
+m'avoir accordé sa confiance en me confiant ce projet à réaliser en autonomie.
 
 Je remercie les membres du Service Études et Développement qui ont travaillé en
 collaboration avec moi, ainsi que l'ensemble du personnel de la DSI pour m'avoir
@@ -24,18 +24,18 @@ des Systèmes d'Information de la Mairie de Nouméa.
 Dans le cadre de **l'UE stage** du semestre 4 de la formation licence **Science pour
 l'Ingénieur parcours Informatique**, j'ai effectué un stage de 4 semaines au sein de la
 Direction des Services Informatique de la Mairie de Nouméa sous tutorat de Mr Adrien
-SALES, chef du Département Développement et Maintenance, et de Mr Téodor KNAPIK, maitre
+SALES, chef du Département Maintenance et Développement, et de Mr Téodor KNAPIK, maître
 de conférence en informatique à l'Université de Nouvelle-Calédonie.
 
 Le SED étudie et assure la cohérence de l’évolution de l’ensemble du **système d’information**
-en conformité avec l’architecture technique.Au début de mon stage, le SED
+en conformité avec l’architecture technique. Au début de mon stage, le SED
 disposait d'une application dépendant de certains logiciels. L'objectif de mon stage
 était donc de m'assurer que cette application puisse être exécuté avec les nouvelles
 version des ces logiciels
 
 Plus largement ce stage a été pour moi **l'opportunité** de découvrir le métier de
-développeur et tous les aspects qui y sont reliés. J'ai pu apprendre à me servir des
-outils Redmine, Subversion, Maven, PostgreSQL et Tomcat, le tout sous un environnement
+développeur et quelques aspects qui y sont reliés. J'ai pu apprendre à me servir des
+outils Redmine, Subversion, Maven, PostgreSQL, Tomcat et git, le tout sous un environnement
 Linux. J'ai ainsi pu approfondir mes connaissances en **SQL** et lignes de commandes Linux,
 mais aussi découvrir de nouveaux langages comme le markdown **Pandoc** et le **LaTeX** d'ailleurs
 utilisé pour rédiger ce rapport.
@@ -93,17 +93,16 @@ DSI
 Pour ma part j'ai intégré la DSI au **Service Etudes et Développements**.
 
 >"Ce service étudie et assure la cohérence de l’évolution de l’ensemble du système
-d’information en conformité avec l’architecture technique; il réalise la maitrise
+d’information en conformité avec l’architecture technique; il réalise la maîtrise
 d’œuvre et assiste la maîtrise d’ouvrage pour la définition des besoins et des solutions
 à installer; il développe des applicatifs, intègre les données Internet et administre le
 portail d’entreprise."
 
 
-Le SED est divisé en 2 départements : le **Département Etudes** et le **Département Développement et Maintenance**,
-dirigé par Adrien SALES (mon maitre de stage) et au sein duquel
-j'ai travaillé.
+Le SED est divisé en 2 départements : le **Département Etudes** et le **Département Maintenance et Développement**,
+dirigé par Adrien SALES (mon maître de stage) et au sein duquel j'ai travaillé.
 
-L'agencement du service fut réorganisé en 2012 sur le modèle de l'open-space, facilitant
+L'agencement du service fût réorganisé en 2015 sur le modèle de l'open-space, facilitant
 ainsi la communication et l'échange pour l'ensemble de ses membres. L'équipe peut aussi
 compter sur des outils tel que **Redmine** et **Subversion** afin de coordoner le travail
 et les actions à effectuer.
@@ -145,13 +144,12 @@ commandes à l'interface graphique
 
 ## Les outils du projet
 
-Tout les outils utilisés dans le cadre du projet sont des outils **gratuits** et pour la
-plupart **open source**.
+Tout les outils utilisés dans le cadre du projet sont **open source**.
 
 ### Linux Mint
 
 **Linux Mint** est une distribution Linux dérivé de **Ubuntu** et **Debian** dont le développement
-commença en 2006. Elle en est aujourd'hui à sa version 17.2 (nom de code **Rafaela** ) et
+commençat en 2006. Elle en est aujourd'hui à sa version 17.2 (nom de code **Rafaela** ) et
 c'est aussi la version utilisé lors du stage.
 
 Linux Mint utilise un environnement Gnome dans son édition principale. Cependant c'est
@@ -216,8 +214,8 @@ Il est lui aussi sous licence Apache. Pour gérer la production, il obéit au sc
 * deploy
 
 Pour chaque tache les précédentes doivent avoir été éxécuté, sauf si elles ont déjà été
-effectué avec succés et qu'aucun changement n'a été fait dans le projet depuis. D'autres
-tache peuvent etre ajoutées comme clean, site (crée un site **wiki** ), etc...
+effectuées avec succés et qu'aucun changement n'a été fait dans le projet depuis. D'autres
+tâches peuvent etre ajoutées comme clean, site (crée un site **wiki** ), etc...
 
 ### Tomcat
 
@@ -234,7 +232,7 @@ de disposer d'une **interface web** pour l'administration des applications dépl
 ### PotgreSQL
 
 **PostgreSQL** est un **SGBD** sous licence **BSD**, un autre projet libre comme Apache ou
-Linux. Dans sa distribution officiel, il ne dispose d'aucune interfacfe graphique et
+Linux. Dans sa distribution officiele, il ne dispose d'aucune interfacfe graphique et
 tout doit donc se faire en ligne de commandes (il existe cependant quelques **GUI** comme
 **pgAdmin** par exemple). La version 9.5 du logiciel vient d'entrer dans sa phase de **beta test**,
 c'est donc la version 9.4 que nous utiliseront ici.
@@ -337,7 +335,7 @@ Il faut donc créé le fichier **~/.m2.settings.xml** qui aura le contenu ci des
       <protocol>http</protocol>
       <host>proxyweb.site-mairie.noumea.nc</host>
       <port>3128</port>
-      <username>salad74</username>
+      <username>LOGIN</username>
       <password>XXXXXX</password>
       <nonProxyHosts>www.google.com|*.somewhere.com *dvlp*</nonProxyHosts>
     </proxy>
@@ -346,7 +344,7 @@ Il faut donc créé le fichier **~/.m2.settings.xml** qui aura le contenu ci des
   <servers>
     <server>
       <id>svn.ville-noumea.nc</id>
-      <username>salad74</username>
+      <username>LOGIN</username>
       <password>XXXXXX</password>
     </server>
   </servers>
@@ -363,10 +361,10 @@ Je met ensuite a jour le **contexte** et insère ceci au fichier **server.xml**
 
 ~~~~~
 <Realm   className="org.apache.catalina.realm.JNDIRealm" 
-        connectionURL="ldap://netone.site-mairie.noumea.nc:389" 
-        alternateURL="ldap://gberge.site-mairie.noumea.nc:389" 
-        connectionName="toto@site-mairie.noumea.nc" 
-        connectionPassword="titi" 
+        connectionURL="ldap://XXX.site-mairie.noumea.nc:389" 
+        alternateURL="ldap://XXX.site-mairie.noumea.nc:389" 
+        connectionName="XXX@site-mairie.noumea.nc" 
+        connectionPassword="*****" 
         userBase="ou=Z-Users,dc=site-mairie,dc=noumea,dc=nc" 
         userSubtree="true" 
         userSearch="(sAMAccountName={0})" 
@@ -495,8 +493,7 @@ cet outil ainsi que NetBeans pour les récupérations, les modifications en loca
 Maintenant que l'application est testé, je peux passer à la deuxième
 partie de mon rapport : sa **rédaction**. En effet la rédaction de ce rapport fait partie
 intégrante du projet car elle est l'occasion de découvrir un **markdown** particulier
-utilisé par Pandoc ainsi que quelques éléments de **LaTeX** afin de comprendre les mécanismes
-utilisé lors de la **conversion**. Voici la commande entrée pour lancer cette dernière :
+utilisé par Pandoc afin de comprendre les mécanismes utilisés lors de la **conversion**. Voici la commande entrée pour lancer cette dernière :
 
 ~~~~~
 pandoc rapport.md -o rapport.pdf -V fontsize=12pt -V linestretch=1 -V linkcolor=black --number-sections --table-of-contents -V documentclass=scrreprt -V lang=french
