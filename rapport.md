@@ -220,7 +220,7 @@ tâches peuvent etre ajoutées comme clean, site (crée un site **wiki** ), etc.
 
 ### Tomcat
 
-**Tomcat** est un **serveur HTTP** sous licence Apache (encore). Tout comme Maven, il est issu du
+**Tomcat** est un **serveur J2EE** sous licence Apache. Tout comme Maven, il est issu du
 projet **Jakarta**. Tomcat à été écrit en Java et dispose donc de la portabilité
 inhérente au langage. Tomcat en est aujourd'hui à sa version 8.0.28. Il a l'avantage
 de disposer d'une **interface web** pour l'administration des applications déployées.
