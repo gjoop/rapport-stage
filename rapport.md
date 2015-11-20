@@ -204,7 +204,7 @@ et éventuellement modifiés localement
 
 ### Maven
 
-**Maven** est un **moteur de production** Java en général et **Java EE** en particulier.
+**Maven** est un outil de build Java.
 Il est lui aussi sous licence Apache. Pour gérer la production, il obéit au schéma suivant :
 
 * compile
@@ -212,8 +212,9 @@ Il est lui aussi sous licence Apache. Pour gérer la production, il obéit au sc
 * package
 * installe
 * deploy
+* ...
 
-Pour chaque tache les précédentes doivent avoir été éxécuté, sauf si elles ont déjà été
+Pour chaque tâche les précédentes doivent avoir été éxécuté, sauf si elles ont déjà été
 effectuées avec succés et qu'aucun changement n'a été fait dans le projet depuis. D'autres
 tâches peuvent etre ajoutées comme clean, site (crée un site **wiki** ), etc...
 
