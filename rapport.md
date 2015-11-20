@@ -1,4 +1,4 @@
-% Déploiement de l'application Accueil-CCAS
+% Déploiement de d'une'application J2EE sous linux/Tomcat/Postgres
 % Guillaume JOOP
 % Stage du 28/10/2015 au 20/11/2015
 
@@ -254,7 +254,7 @@ Parmi les autres fonctions utiles de Pandoc se trouve la création automatique d
 
 GitHub est un service web d'hébergement et de gestion de développement de logiciels,
 utilisant le logiciel de gestion de versions Git. Ce site est développé en partie en 
-Ruby on Rails
+Ruby on Rails.
 
 ### NetBeans
 
