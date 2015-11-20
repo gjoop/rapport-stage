@@ -161,9 +161,7 @@ mémoire vive embarquée dans le poste de travail fourni.
 
 ### Open JDK
 
-**Open JDK** est la version open source de l'environnement de développement **Java** de la société
-**Oracle**. Elle est officiellement soutenu par Oracle et en est donc à sa version 8, tout
-comme la version officiel disponible sur le site de la société.
+**Open JDK** est la version open source de l'environnement de développement **Java**.
 
 \pagebreak
 
