@@ -257,7 +257,7 @@ Ruby on Rails
 
 ### NetBeans
 
-NetBeans est une interface de développement créé par Sun (aujourd'hui racheté par Oracle).
+NetBeans est une Studio de développement créé par Sun (aujourd'hui racheté par Oracle).
 NetBeans permet de développer en une multitude de langage comme Java, C++, HTML et
 beaucoup d'autres en lui incluant des greffons. Il est par exemple utilisé dans le cadre
 du stage avec un greffon Markdown. Il gère la notion de projet et est compatible
