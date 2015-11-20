@@ -3,7 +3,7 @@ Rapport de stage à la DSI de la mairie de Nouméa du 28/10/2015 au 20/11/2015.
 
 pré-requis :
 
-* installer correctement pandoc [ici](http://pandoc.org/installing.html]
+* installer correctement pandoc [ici](http://pandoc.org/installing.html)
 
 
 pour générer le pdf, on utilise la commande :
