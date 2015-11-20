@@ -102,7 +102,7 @@ portail d’entreprise."
 Le SED est divisé en 2 départements : le **Département Etudes** et le **Département Maintenance et Développement**,
 dirigé par Adrien SALES (mon maître de stage) et au sein duquel j'ai travaillé.
 
-L'agencement du service fût réorganisé en 2015 sur le modèle de l'open-space, facilitant
+L'agencement du service fût réorganisé en 2012 sur le modèle de l'open-space, facilitant
 ainsi la communication et l'échange pour l'ensemble de ses membres. L'équipe peut aussi
 compter sur des outils tel que **Redmine** et **Subversion** afin de coordoner le travail
 et les actions à effectuer.
