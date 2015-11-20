@@ -169,7 +169,7 @@ comme la version officiel disponible sur le site de la société.
 
 ### Redmine
 
-**Redmine** est un client web de gestion de projet basé sur le framework **Ruby on Rails**.
+**Redmine** est une application web de Bugtracking/gestion de projet basé sur le framework **Ruby on Rails**.
 Parmi ses nombreuses fonctionalitées on peut citer :
 
 \ 
